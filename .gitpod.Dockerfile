@@ -20,4 +20,8 @@ WORKDIR /home/rstudio/EpiNow
 ## Install missing packages
 RUN Rscript -e "devtools::install_dev_deps()"
 
+<<<<<<< HEAD
 EXPOSE 8787
+=======
+EXPOSE 8787
+>>>>>>> d2c6e80eed198c8b3871fa0a28e2e6627987dffa
